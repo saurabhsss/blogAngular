@@ -1,0 +1,31 @@
+<!--<nav class="navbar navbar-inverse">-->
+  <!--<div class="container-fluid">-->
+    <!--<div class="navbar-header">-->
+      <!--<a class="navbar-brand" href="#">BLOGGER</a>-->
+    <!--</div>-->
+    <!--<ul class="nav navbar-nav">-->
+      <!--<li>-->
+        <!--<a [routerLink] = "['/create']">Create your blog</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a [routerLink] = "['/nav3']">Home Page</a>-->
+      <!--</li>-->
+    <!--</ul>-->
+    <!--<button class="btn btn-danger navbar-btn" (click)="Logout()">Logout</button>-->
+  <!--</div>-->
+<!--</nav>-->
+<nav>
+  <div class="nav-wrapper">
+    <a class="brand-logo">Blogger</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a [routerLink] ="['/userblog']">Your Blogs</a></li>
+      <li><a [routerLink] = "['/create']">Create Blog</a></li>
+      <li><a [routerLink] ="['/all']">Home</a></li>
+      <li style="margin-right: 10px">{{activeUser.name | uppercase}}</li>
+      <li><button class="btn btn-danger navbar-btn" (click)="Logout()">Logout</button></li>
+    </ul>
+    <ul style="margin-right: 50px" class="right hide-on-med-and-down" *ngFor="let item of button">
+      <li><a (click)="func(item)">{{item}}</a></li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,27 @@
+<div class="row">
+  <form class="col s12" (submit)="Create(tit.value,cat.value,bod.value)">
+    Title
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="input_text" type="text" data-length="10" #tit>
+        <label for="input_text"></label>
+      </div>
+    </div>
+    Category
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="input_text1" type="text" data-length="10" #cat>
+        <label for="input_text"></label>
+      </div>
+    </div>
+    Body
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="textarea1" class="materialize-textarea" data-length="120" #bod></textarea>
+        <label for="textarea1"></label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" >Post</button>
+  </form>
+
+</div>

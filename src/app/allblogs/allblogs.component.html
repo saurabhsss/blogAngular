@@ -1,0 +1,61 @@
+<!--<div class="container">-->
+  <!--<h2>All Blogs</h2>-->
+  <!--<div class="panel-group" *ngFor="let item of blogs">-->
+    <!--<div class="panel panel-default">-->
+      <!--<div class="panel-heading">{{item.title}}</div>-->
+      <!--<div class="panel-body">{{item.body}}</div>-->
+      <!--author : {{item.author}}-->
+      <!--<br>-->
+      <!--category: {{item.category}}-->
+    <!--</div>-->
+    <!--<br>-->
+  <!--</div>-->
+<!--</div>-->
+<div *ngIf="check() == false">
+<div class= "blog-container" *ngIf="blogs">
+  <div style="text-align: center" *ngFor="let item of blogs">
+    <article>
+      <header>
+        <h3>{{item.title}}</h3>
+        <div>
+          <span><b>Author</b> : {{item.author}}</span>
+          <span><b>Category</b> : {{item.category}}</span>
+        </div>
+      </header>
+      <div>
+        <p>{{item.body}}</p>
+      </div>
+      <!--<span class="btn-group-sm">-->
+     <!--<button type="button" class="btn btn-danger bmd-btn-fab" (click)="favorite(item.id,item.author)">-->
+     <!--<i class="material-icons">grade</i>-->
+     <!--</button>-->
+   <!--</span>-->
+      <hr>
+    </article>
+  </div>
+</div>
+</div>
+<div *ngIf="check() == true">
+<div class= "blog-container" *ngIf="blogs">
+  <div style="text-align: center" *ngFor="let item of blogs">
+    <article>
+      <header>
+        <h3>{{item.title}}</h3>
+        <div>
+          <span><b>Author</b> : {{item.author}}</span>
+          <span><b>Category</b> : {{item.category}}</span>
+        </div>
+      </header>
+      <div>
+        <p>{{item.body}}</p>
+      </div>
+      <span class="btn-group-sm">
+     <button type="button" class="btn btn-danger bmd-btn-fab" (click)="favorite(item.id)">
+     <i class="material-icons">grade</i>
+     </button>
+   </span>
+      <hr>
+    </article>
+  </div>
+</div>
+</div>

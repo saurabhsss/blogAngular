@@ -1,0 +1,11 @@
+<form (submit)="Login(use.value,paa.value)">
+  <div class="form-group">
+    <label for="email">UserName:</label>
+    <input type="text" class="form-control" id="email" #use>
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" #paa>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>

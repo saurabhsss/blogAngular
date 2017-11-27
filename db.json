@@ -1,0 +1,75 @@
+{
+  "blogs": [
+    {
+      "title": "The Change Blog",
+      "category": "Inspiration",
+      "body": "The Change Blog was founded in 2007 by Peter Clemens to share his process of personal change from rough times to the happiest phase of his life. The website soon became a community blog, where people publish stories about their exemplary life experiences with a particular focus on personal change. The Change Blog now counts approximately 1000 helpful stories of inspiring writers from across the globe. ",
+      "author": "raghav",
+      "id": 7
+    },
+    {
+      "title": "The Positivity Blog",
+      "category": "life",
+      "body": "Journalism major Henrik Edberg created The Positivity Blog in 2006 to document and to share what he has learned from his constant “work in progress” personal development process. By taking a page from his decade-long experience and greatest achievements, Henrik has developed The Positivity Blog as a place where people can get started to build a better life. Sociability, simplification, productivity and self-esteem are the keywords to begin with.",
+      "author": "raghav",
+      "id": 8
+    },
+    {
+      "title": "1stWebDesigner ",
+      "category": "Tech",
+      "body": "I can tell you that 1stWebDesigner at least does everything in it’s industry the right way, while setting a few innovations (industry examples being stuff like free PSD files and the like).\n\nThat’s the big takeaway for this site: find out what works for the big players in your niche, pull some ideas that you like, and innovate on the rest.",
+      "author": "saurabh",
+      "id": 9
+    },
+    {
+      "title": "What I Wore",
+      "category": "life",
+      "body": "It’s a personal fashion blog, so that makes sense, but the general principle here is that her personality is inserted without pause.\n\nEvery post is flooded with the author, and it makes the case that a strong personality (and taste) can make for a great unique selling proposition, even in a crowded niche like this.",
+      "author": "saurabh",
+      "id": 10
+    },
+    {
+      "title": "AutoBlog ",
+      "category": "Tech",
+      "body": "I see so many bloggers who are against “news” sites, and while I’m also in favor of creating ‘evergreen’ content, when you are dominating a specific niche well, your blog is certainly capable of breaking news, even if those posts won’t generate lifetime traffic.",
+      "author": "raghav",
+      "id": 11
+    },
+    {
+      "title": "StackOverflow",
+      "category": "Tech",
+      "body": "Best Web Development site",
+      "author": "raghav",
+      "id": 12
+    },
+    {
+      "title": "nnnnnnnnn88888888",
+      "category": "jjjjjjjjjjjjjjj",
+      "body": "yyyyyyyyyyyyyyyyyyy",
+      "author": "saurabh",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "saurabh",
+      "username": "saurabhsingh",
+      "password": "udaipur",
+      "status": false,
+      "favourite": [
+        9
+      ]
+    },
+    {
+      "id": 2,
+      "name": "raghav",
+      "username": "raghav",
+      "password": "bhopal",
+      "status": true,
+      "favourite": [
+        7
+      ]
+    }
+  ]
+}
