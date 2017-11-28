@@ -47,8 +47,8 @@ export class UserblogComponent implements OnInit {
       category: category,
       author: author
     };
-    this.request.updateblog(blog).subscribe();
-       location.reload();
-       this.router.navigate(['userblog']);
+    this.request.updateblog(blog).subscribe(data => {
+      this.router.navigate(['userblog']);
+    });
   }
 }
