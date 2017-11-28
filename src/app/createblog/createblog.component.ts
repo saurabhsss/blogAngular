@@ -33,9 +33,7 @@ export class CreateblogComponent implements OnInit {
   };
     this.request.postBlogs(blog)
       .subscribe(data => {
-        console.log('printing data');
-        console.log(data);
-        location.reload();
+      //  location.reload();
         this.router.navigate(['userblog']);
       });
 
