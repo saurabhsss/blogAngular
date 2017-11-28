@@ -26,7 +26,7 @@ export class UserblogComponent implements OnInit {
   }
   deleteBlog(blog) {
     this.request.deleteBlogs(blog).subscribe(data => {
-      location.reload();
+    //  location.reload();
       this.router.navigate(['userblog']);
     });
 
