@@ -1,5 +1,9 @@
 Routing not Working Properly on bitballoon because i have used location.reload kind of functions for reload that works properly on localhost.
 
+For Login Credentials are:
+1.) username--raghav1 password-- bhopal
+2.) username-- saurabhsingh password -- udaipur
+
 #Links
 
 Server hosted on url:https://json-server-heroku-ccwkxwccql.now.sh
