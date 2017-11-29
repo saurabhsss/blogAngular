@@ -1,6 +1,4 @@
-Routing not Working Properly on bitballoon because i have used location.reload kind of functions for reload that works properly on localhost.
-
-For Login Credentials are:
+For Login in app user Credentials are:
 1.) username--raghav1 password-- bhopal
 2.) username-- saurabhsingh password -- udaipur
 
@@ -8,7 +6,7 @@ For Login Credentials are:
 
 Server hosted on url:https://json-server-heroku-ccwkxwccql.now.sh
 
-Application hosted(bitballoon) on url : http://infallible-lamarr-9843d0.bitballoon.com
+Application hosted(bitballoon) on url : pensive-hermann-6caf11.bitballoon.com
 
 # Blogger
 
